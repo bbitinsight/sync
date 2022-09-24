@@ -77,7 +77,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>bbitinsight-releases</id>
       <name>bbitinsight-releases</name>
-      <url>shttp://3.21.102.226:8081/repository/bbitinsight-releases/</url>
+      <url>http://3.21.102.226:8081/repository/bbitinsight-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
