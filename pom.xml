@@ -72,4 +72,21 @@
       </plugins>
     </pluginManagement>
   </build>
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>bbitinsight-releases</id>
+      <name>bbitinsight-releases</name>
+      <url>shttp://3.21.102.226:8081/repository/bbitinsight-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>bbitinsight-snapshots</id>
+      <name>bbitinsight-snapshots</name>
+      <url>http://3.21.102.226:8081/repository/bbitinsight-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
+  
 </project>
