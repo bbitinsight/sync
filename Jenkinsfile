@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', url: 'https://github.com/bbitinsight/sync.git'
-                sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean deploy"
+                sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean install"
             }
             post {
                 success {
